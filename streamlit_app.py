@@ -12,7 +12,7 @@ def load_saved_artifacts():
     
 
     # Load data columns from JSON file
-    with open('../Real-Estate-Price-Prediction/server/artifacts/colupmns.json', 'r') as f:
+    with open('../Real-Estate-Price-Prediction/server/artifacts/columns.json', 'r') as f:
         __data_columns = json.load(f)['data_columns']
         __locations = __data_columns[3:]
 
